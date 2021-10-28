@@ -1,3 +1,4 @@
+echo "Joan gGarí"
 echo "En aquest programa has d'introduir un valor positiu en segons i et dira el valor en hores minuts i segons."; echo "" ;echo "Introdueix un nombre positiu en segons: "; read temps
 hores=0
 min=0
