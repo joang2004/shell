@@ -1,4 +1,4 @@
-#Fes un programa que mostri per pantalla els nombres del 10 al 1.
+#Fes un programa que mostri per pantalla els nombres del 10 al 0.
 #Joan Garí Parera
 
 nom=10
