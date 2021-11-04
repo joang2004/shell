@@ -1,3 +1,6 @@
+#Fer un programa que demani dos nombres i per sortida digui quin és el més gran.
+#Joan Garí Parera
+
 echo "Introdueix dos nombres per comparar-los"
 echo "Introdueix el primer valor: "; read num1
 echo "Introdueix el segon valor: "; read num2
