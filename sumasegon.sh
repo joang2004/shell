@@ -1,3 +1,5 @@
+#Suma un segon
+#Joan Garí Parera
 echo "En aquest programa has d'introduir una hora i el programa li sumarà un segon."
 echo "Introdueix l'hora"; read hora
 echo "Introduiex els minuts"; read minut
@@ -27,5 +29,5 @@ if [ $hora -ge 24 ]
     then
     echo "Si suman un segon a l'hora donada: 00:00:01"
 else
-echo "Si suman un segon a l'hora donada: $hora:$minut:$segon"
+    echo "Si suman un segon a l'hora donada: $hora:$minut:$segon"
 fi
