@@ -1,4 +1,4 @@
- #En un array, el programa contarà el nombre de h's
+ #Fes l’exercici anterior, passant per arguments els valors de l’array i en darrera posició l’entrada a cercar.
  #Joan Garí Parera
 
 
