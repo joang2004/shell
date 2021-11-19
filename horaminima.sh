@@ -1,4 +1,5 @@
-echo "BENVINGUTS A HORA MÀXIMA"
+# JOAN GARÍ PARERA
+echo "BENVINGUTS A HORA MÍNIMA"
 echo "les dades entrades són: $1, $2, $3 i $4"
 
 
