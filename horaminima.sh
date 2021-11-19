@@ -1,5 +1,5 @@
 # JOAN GARÍ PARERA
-echo "BENVINGUTS A HORA MÍNIMA"
+ echo "BENVINGUTS A HORA MÀXIMA"
 echo "les dades entrades són: $1, $2, $3 i $4"
 
 
@@ -103,7 +103,7 @@ fi
 
 for i in 0 1 2 3 
     do
-        if [ $c -gt ${entrada[$i]} ] && [ ${entrada[$i]} -lt 6 ]
+        if [ $c -gt ${entrada[$i]} ] && [ ${entrada[$i]} -lt 6 ] && [ ${entrada[$i]} -ge 0 ]
         then
             c=${entrada[$i]}
             pos=$i
@@ -123,7 +123,7 @@ fi
 
 for i in 0 1 2 3 
     do
-        if [ $d -gt ${entrada[$i]} ]
+        if [ $d -gt ${entrada[$i]} ] && [ ${entrada[$i]} -ge 0 ]
         then
             d=${entrada[$i]}
             pos=$i
@@ -147,6 +147,5 @@ echo "-----------------"
 echo "| $a $b : $c $d |"
 echo "-----------------"
 fi
-
 
 
