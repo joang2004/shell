@@ -1,4 +1,4 @@
-#Joan Garí Parera
+#Joan Garí Parera 
 #L'usuari introdueix una seria de valors X (nombres naturals entre 1 i 9) mitjançant arguments.
 #El programa crearà X's quadrats de X de llarga i X d'amplada.
 
