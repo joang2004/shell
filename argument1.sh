@@ -1,5 +1,5 @@
 #Primer exercici d'arguments. L'usuari introdueix dos nombres mitjançant arguments i el programa fa la suma"
-#Joan Garí Parera
+#Joan Garí Parera 
 
 let sum=$1+$2
 
