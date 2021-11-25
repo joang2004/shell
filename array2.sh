@@ -24,4 +24,4 @@ then
     echo "Hi ha $conta h"
 else
     echo "No hi ha cap h"
-fi
+fi 
