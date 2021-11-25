@@ -11,17 +11,17 @@ for a in ${valors[@]} #Control de valors
 do
     if [ $a != "1" ] && [ $a != "2" ] && [ $a != "3" ] && [ $a != "4" ] && [ $a != "5" ] && [ $a != "6" ] && [ $a != "7" ] && [ $a != 8 ] && [ $a != "9" ] #Control de valors
     then
-    valid=1
+        valid=1
     fi
 done
+
 if [ $valid -eq 0 ]
 then
     for a in ${valors[@]}
     do
         columna=1 #marca la posició de la columna que està escrivint
         linea=1 #marca el nombre de linees que s'han escrites
-    
-    
+       
         while [ $columna -le $a ]
         do
             if [ $nombre -lt 9 ]
@@ -42,8 +42,8 @@ then
             fi
             done
 
-echo ""
-done 
+        echo ""
+    done 
 else
     echo "ERROR"
     echo "Per favor introdueix un valor entre 1 i 9"
