@@ -1,5 +1,5 @@
 # JOAN GARÍ PARERA
- echo "BENVINGUTS A HORA MÀXIMA"
+echo "BENVINGUTS A HORA MÀXIMA"
 echo "les dades entrades són: $1, $2, $3 i $4"
 
 
