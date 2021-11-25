@@ -1,4 +1,4 @@
-#Suma un segon
+#Suma un segon 
 #Joan Garí Parera
 echo "En aquest programa has d'introduir una hora i el programa li sumarà un segon."
 echo "Introdueix l'hora"; read hora
