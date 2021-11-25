@@ -7,10 +7,10 @@ valors=$*
 valid=0 #És una buleana, si val 0 tot s'activarà, si val 1, donarà ERROR
 for a in ${valors[@]} #Control de valors
 do
-if [ $a != "1" ] && [ $a != "2" ] && [ $a != "3" ] && [ $a != "4" ] && [ $a != "5" ] && [ $a != "6" ] && [ $a != "7" ] && [ $a != 8 ] && [ $a != "9" ] #Control de valors
-then
-valid=1
-fi
+    if [ $a != "1" ] && [ $a != "2" ] && [ $a != "3" ] && [ $a != "4" ] && [ $a != "5" ] && [ $a != "6" ] && [ $a != "7" ] && [ $a != 8 ] && [ $a != "9" ] #Control de valors
+    then
+        valid=1
+    fi
 done
 
     
@@ -52,9 +52,9 @@ then
             nombre=0
         done
 
-echo ""
-done 
+        echo ""
+    done 
 else
-echo "ERROR"
-echo "Comprova que tots els valors introduïts son nombres sencers i entre 1 i 9"
+    echo "ERROR"
+    echo "Comprova que tots els valors introduïts son nombres sencers i entre 1 i 9"
 fi
