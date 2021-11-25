@@ -1,6 +1,6 @@
-#Joan Garí Parera
+#Joan Garí Parera 
 echo "BENVINGUTS A HORA MÀXIMA"
-echo "les dades entrades són: $1, $2, $3 i $4"
+echo "Les dades entrades són: $1, $2, $3 i $4"
 
 
 #INCIALITZAM LES ESTRUCTURES DE DADES
