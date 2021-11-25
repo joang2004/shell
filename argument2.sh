@@ -1,3 +1,3 @@
-let seg=$1+1
-
-echo "El nombre següent és: $seg"
+#Joan Garí Parera
+#Mostra la quantitats de arguments pasats.
+echo "$#"
