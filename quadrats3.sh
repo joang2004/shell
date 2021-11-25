@@ -3,7 +3,7 @@
 #Introdueix els valors x's mintjançant arguments han de ser entre 1 i 9.
 #El programa et crearà un quadrat x*x i hanira contant d'un en un, quan arribi a 9 gafarà el valor de 0
 
-echo "El programa et demanarà un nombre i et imprimira x*x des de 1 al 9 "
+
 valors=$*
 nombre=0 #marca el nombre que ha de sortir
 valid=0 #és una buleana, si val 0 s'activarà el programa, si no, sortirà error
