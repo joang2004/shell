@@ -1,4 +1,4 @@
-#Joan Garí Parera
+#Joan Garí Parera 
 echo "En aquest programa et farà les potencies. a^b on b>0"
 printf "Introdueix la base: "; read a
 printf "Introdueix la potència: "; read b
