@@ -1,3 +1,4 @@
+#Joan Garí Parera
 echo "El programa genererà un nombre aleatori entre 0 i 100, tú has d'introduïr un nombre entre aquest dos valors. A continuació el programa les compararà."
 ran=$(($RANDOM%101))
 echo $ran
