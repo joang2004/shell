@@ -1,4 +1,4 @@
-#Fer un programa que crei dos nombres aleatoris i digui el més gran i el més petit.
+#Fer un programa que crei dos nombres aleatoris i digui el més gran i el més petit. 
 #Jon Garí Parera
 echo "Aquest programa generà dos nombres aleatoris i les compararà"
 ran1=$(($RANDOM%101)); echo "El primer nombre aleatori és: $ran1"
