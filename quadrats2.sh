@@ -1,6 +1,6 @@
 #Quadrats2.sh
 #Joan Garí Parera
-#Introdueix els valors x's mintjançant arguments han de ser entre 1 i 9.
+#Introdueix els valors x's mitjançant arguments han de ser entre 1 i 9.
 #El programa et crearà un quadrat x*x i hanira contant d'un en un, quan arribi a 9 gafarà el valor de 0. En canviar de variable agafarà el valor de 0
 
 
