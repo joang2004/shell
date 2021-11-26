@@ -1,5 +1,5 @@
 #Joan Garí Parera
-#Introdueix els valors x's mintjançant arguments han de ser entre 1 i 9.
+#Introdueix els valors x's mitjançant arguments han de ser entre 1 i 9.
 #El programa et crearà un quadrat x*x format pel nombre x
 
 echo "El programa et demanarà un nombre i et imprimira x*x des de 1 al 9 "
