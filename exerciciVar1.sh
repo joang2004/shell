@@ -1,3 +1,4 @@
+#Joan Garí Parera
 echo "Aquest programa farà la suma, la resta i la multiplicació de tres variables perdefinides."
 echo ""
 num1=2
