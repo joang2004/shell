@@ -5,7 +5,7 @@ echo "les dades entrades són: $1, $2, $3 i $4"
 
 #INCIALITZAM LES ESTRUCTURES DE DADES
 entrada=($1 $2 $3 $4)
-#CANVIAM ELS VALORS INICIALS A 900 (QUALSEVOL VALOR MOLT GRAN), JA QUE SI SÓN = -1 SEMPRE SORTIRAN MALEMENT
+#CANVIAM ELS VALORS INICIALS A 900 (QUALSEVOL VALOR MOLT GRAN), JA QUE SI SÓN = -1 SEMPRE SORTIRAN MALEMENT.
 a=900
 b=900
 c=900
@@ -13,7 +13,7 @@ d=900
 
 ######################################################
 ######################################################
-#   RELLOTGE, HORA MÀXIMA:
+#   RELLOTGE, HORA MÍNIMA:
 #   EL RELLOTGE TÉ LES POSICIONS:    AB : CD
 #   ON:
 #       - A: HA DE SER ENTRE 0 I 2
@@ -147,5 +147,4 @@ echo "-----------------"
 echo "| $a $b : $c $d |"
 echo "-----------------"
 fi
-
 
