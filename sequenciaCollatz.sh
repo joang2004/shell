@@ -1,5 +1,5 @@
 #Joan Garí Parera
-echo "Escriur un nombre natural i igual o més gran que 1, i et dirar el nombres de pases necesaries per completar la seqüència de Collatz";printf "Introdueix el valor: "; read num
+echo "Escriu un nombre natural i igual o més gran que 1, i et dirà el nombre de passes necessaries per completar la seqüència de Collatz";printf "Introdueix el valor: "; read num
 pas=0 #nombre de pases
 res=$num #resultat que dona després de cada etapa
 if [ $num -ge 1 ]
