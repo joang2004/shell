@@ -18,10 +18,10 @@ done
 
 if [ $conta -gt 1 ]
 then
-    echo "Hi ha $conta h's"
+    echo "Hi ha $conta h's."
 elif [ $conta -eq 1 ]
 then
-    echo "Hi ha $conta h"
+    echo "Hi ha $conta h."
 else
-    echo "No hi ha cap h"
+    echo "No hi ha cap h."
 fi 
