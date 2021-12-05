@@ -1,17 +1,17 @@
 #Suma un segon 
 #Joan Garí Parera
 echo "En aquest programa has d'introduir una hora i el programa li sumarà un segon."
-echo "Introdueix l'hora"; read hora
-echo "Introduiex els minuts"; read minut
-echo "Introdueix els segons"; read segon
+printf "Introdueix l'hora: "; read hora
+printf "Introdueix els minuts: "; read minut
+printf "Introdueix els segons: "; read segon
 echo ""
 
-while [ $minut -ge 60 -o $segon -ge 60 -o $hora -ge 24 ] #Aquest while no més serveix per que l'input de l'usuari sigui una hora 
+while [ $minut -ge 60 -o $segon -ge 60 -o $hora -ge 24 ] #Aquest while només serveix perquè l'input de l'usuari sigui una hora 
 do
     echo "Introdueix una hora vàlida"
-    echo "Introdueix l'hora"; read hora
-    echo "Introduiex els minuts"; read minut
-    echo "Introdueix els segons"; read segon
+    printf "Introdueix l'hora: "; read hora
+    printf "Introdueix els minuts: "; read minut
+    printf "Introdueix els segons: "; read segon
     echo ""
 done
 let segon=$segon+1
@@ -25,9 +25,19 @@ if [ $minut -ge 60 ]
     let hora=$hora+1
     let minut=$minut-60
 fi
+#Modificam les variables dels segons i els minuts en cas que siguin menors que 10, per tal que l'output surti com es desitja.
+if [ $segon -lt 10 ] 
+then
+  segon=0$segon
+fi
+if [ $minut -lt 10 ]
+then
+  minut=0$minut
+fi
+
 if [ $hora -ge 24 ]
     then
-    echo "Si suman un segon a l'hora donada: 00:00:01"
+    echo "Si suman un segon a l'hora donada: 00:00:00"
 else
     echo "Si suman un segon a l'hora donada: $hora:$minut:$segon"
 fi
